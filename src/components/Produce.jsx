@@ -5,7 +5,7 @@ import availableProduce from '../produceSchedule.js';
 function Produce(props) {
     const produceStyle = {
         backgroundColor: 'lightgreen',
-        height: '600px',
+        height: '500px',
         color: 'black',
         textAlign: 'center',
     };
@@ -14,7 +14,7 @@ function Produce(props) {
     };
     const listStyles = {
         display: 'grid',
-        gridTemplateColumns: '1fr 1fr 1fr',
+        gridTemplateColumns: '1fr 1fr',
         listStyleType: 'none',
     };
 
